@@ -3,3 +3,5 @@ source 'https://rubygems.org'
 
 # gem "rails"
 gem 'nokogiri'
+gem 'webmock'
+gem 'vcr'
