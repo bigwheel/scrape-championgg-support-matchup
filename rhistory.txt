@@ -1,0 +1,125 @@
+read.csv("winrate-matrix.csv", header=TRUE)
+read.csv("winrate-matrix.csv", header=TRUE)[ ,1:2]
+read.csv("winrate-matrix.csv", header=TRUE)[ ,2:3]
+read.csv("winrate-matrix.csv", header=TRUE)[ ,1:3]
+read.csv("winrate-matrix.csv", header=TRUE)[ ,2:3]
+read.csv("winrate-matrix.csv", header=TRUE)
+read.csv("winrate-matrix.csv", header=TRUE)[,1:]
+read.csv("winrate-matrix.csv", header=TRUE)[,1:-1]
+read.csv("winrate-matrix.csv", header=TRUE)[,1:0]
+read.csv("winrate-matrix.csv", header=TRUE)[,1:3]
+read.csv("winrate-matrix.csv", header=TRUE)[,1:22]
+read.csv("winrate-matrix.csv", header=TRUE)[,1:23]
+read.csv("winrate-matrix.csv", header=TRUE)[,2:23]
+mat <- read.csv("winrate-matrix.csv", header=TRUE)[,2:23]
+mat
+mat.d<-dist(mat)
+round(mat.d)
+mat.d
+hclust(mat.d)
+hclust(mat.d, method="single")
+(mat.hc<-hclust(mat.d))
+summary(mat.hc)
+mat.hc$merge
+mat.hc$height
+plot(mat.hc)
+mat <- read.csv("winrate-matrix.csv", header=TRUE)[,1:23]
+mat.hc<-hclust(dist(mat))
+mat.d<-dist(mat)
+mat
+mat <- read.csv("winrate-matrix.csv", header=TRUE)
+mat
+mat <- read.csv("winrate-matrix.csv", header=TRUE)[,1:23]
+read.csv("winrate-matrix.csv", header=TRUE)[,1:23]
+read.csv("winrate-matrix.csv", header=TRUE)[,2:23]
+read.csv("winrate-matrix.csv", header=TRUE)
+read.csv("winrate-matrix.csv", header=TRUE, byrow=TRUE)
+read.csv("winrate-matrix.csv", header=TRUE, byrow=T)
+read.csv("winrate-matrix.csv", header=TRUE)
+read.csv("winrate-matrix.csv", header=TRUE, row.names=1)
+dist(mat)
+hclust(mat)
+dist(mat)
+mat
+mat=read.csv("winrate-matrix.csv", header=TRUE, row.names=1)
+
+mat
+dist(mat)
+hclust(dist(mat))
+plot(hclust(dist(mat)))
+png("1.png", width = 512, height = 512)
+plot(hclust(dist(mat)))
+dev.off()
+plot(hclust(dist(read.csv("winrate-matrix.csv", header=TRUE, row.names=1))))
+plot(hclust(dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1))))
+plot(hclust(dist(read.csv("winrate-matrix.csv", header=TRUE, row.names=1))))
+plot(hclust(dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1))))
+
+png("2.png", width = 512, height = 512)
+plot(hclust(dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1))))
+dev.off()
+dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1))
+write.table(dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1)), "./yukurid-table.sv", quote=F, col.names=T)
+write.matrix(dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1)), "./yukurid-table.sv", quote=F, col.names=T)
+write.table(dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1)), file="./yukurid-table.sv")
+mat<-dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1))
+write.table(mat, file="./yukurid-table.sv")
+a
+
+library(MASS)
+write.matrix(mat, file="./yukurid-table.sv")
+write.matrix(mat, file="./yukurid-table.sv", col.names=T)
+write.matrix(mat, file="./yukurid-table.sv", row.names=T)
+write.matrix(mat, file="./yukurid-table.sv", sep=",")
+write.matrix(mat, file="./yukurid-table.csv", sep=",")
+dist(read.csv("winrate-matrix-diff.csv", header=TRUE, row.names=1))
+
+plot(hclust(dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1))))
+
+plot(hclust(dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1))))
+dev.off()
+dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1))
+write.matrix(dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1)), file="./yukurid-table.csv", sep=",")
+write.matrix(dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1)), file="./yukurid-table.csv", sep=",")
+plot(hclust(dist(read.csv("winrate-matrix-std-fix.csv", header=TRUE, row.names=1))))
+plot(hclust(dist(read.csv("winrate-matrix-std-fix.csv", header=TRUE, row.names=1))))
+plot(hclust(dist(read.csv("winrate-matrix-std-fix.csv", header=TRUE, row.names=1))))
+plot(hclust(dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1))))
+plot(dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1)))
+dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1))
+dist(read.csv("winrate-matrix-std.csv", header=TRUE))
+savehistory(file = "rhistory.txt")
+dist(read.csv("winrate-matrix-std.csv", header=TRUE))
+dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1))
+dist(read.csv("winrate-matrix-std.csv", header=TRUE, row.names=1))
+dist(read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1))
+dist(read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1))
+read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1)
+dist(read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1))
+round(dist(read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1)))
+dist(read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1))
+read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1)
+dist(read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1))
+read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1)
+read.csv("winrate-matrix-std-fst-row.csv", header=TRUE, row.names=1)
+read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)
+dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1))
+round(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)))
+write.matrix(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), file="./yukurid-table.tsv", sep="\n")
+write.matrix(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), file="./yukurid-table.tsv", sep="\t")
+plot(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)))
+
+png("nonull-images.png/single.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)))); dev.off();
+png("nonull-images/single.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)))); dev.off();
+png("nonull-images/complete.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1, method="complete")))); dev.off();
+png("nonull-images/complete.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1), method="complete"))); dev.off();
+png("nonull-images/complete.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), method="complete"))); dev.off();
+png("nonull-images/complete.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), method="complete")); dev.off();
+png("nonull-images/single.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), method="single")); dev.off();
+png("nonull-images/average.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), method="average")); dev.off();
+png("nonull-images/centroid.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), method="centroid")); dev.off();
+png("nonull-images/median.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), method="median")); dev.off();
+png("nonull-images/ward.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), method="ward")); dev.off();
+png("nonull-images/mcquitty.png", width = 512, height = 512); plot(hclust(dist(read.csv("winrate-matrix-std-nonull.csv", header=TRUE, row.names=1)), method="mcquitty")); dev.off();
+savehistory(file = "rhistory.txt")
+savehistory(file = "rhistory.txt")
