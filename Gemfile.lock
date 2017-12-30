@@ -1,18 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    hashdiff (0.3.2)
-    mini_portile2 (2.1.0)
-    nokogiri (1.7.0)
-      mini_portile2 (~> 2.1.0)
-    public_suffix (2.0.4)
+    hashdiff (0.3.7)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
+    public_suffix (3.0.1)
     safe_yaml (1.0.4)
-    vcr (3.0.3)
-    webmock (2.3.1)
+    vcr (4.0.0)
+    webmock (3.1.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
@@ -26,4 +26,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.13.7
+   1.16.1
